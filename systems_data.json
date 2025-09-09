@@ -1,0 +1,146 @@
+[
+  {
+    "name": "1С БИТ Финанс",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "Битрикс24",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/d1ab43c9-c5a4-4841-ab20-e006690b1a3a"
+  },
+  {
+    "name": "Диадок",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "Зеленая кнопка",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "ИСУП",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "Консультант+",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "Консультант+Регионы",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "Контур.Фокус",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "РАПОРТ",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "Техзор",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/b8108a79-c924-4463-b277-8f52af3a49f3"
+  },
+  {
+    "name": "Техэксперт",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+  },
+  {
+    "name": "Albato",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+  },
+  {
+    "name": "BuildDocs",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+  },
+  {
+    "name": "HR-Link",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "iSpring",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "MS Outlook",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "MS Power BI",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "MS Teams",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "Sarex",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+  },
+  {
+    "name": "StormBPMN",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+  },
+  {
+    "name": "Tangl Control",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+  },
+  {
+    "name": "VMware Horizon",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "ЛИРА-САПФИР",
+    "support_type": "Техническая поддержка ГК ФСК",
+    "support_method": "email",
+    "support_link": "hd@fsk.ru"
+  },
+  {
+    "name": "DevIS",
+    "support_type": "Хелпдеск ФСК-Регион",
+    "support_method": "helpdesk",
+    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+  }
+]
