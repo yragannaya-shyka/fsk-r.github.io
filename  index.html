@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка | Иван Иванов</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            padding: 60px 0;
+        }
+        
+        h1, h2, h3 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        a:hover {
+            color: #2980b9;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: background 0.3s;
+        }
+        
+        .btn:hover {
+            background: #2980b9;
+            color: white;
+        }
+        
+        /* Шапка */
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 30px;
+        }
+        
+        .nav-links a {
+            color: white;
+        }
+        
+        /* Главный баннер */
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://placehold.it/1920x1080') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 150px 0 100px;
+            margin-top: 60px;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        /* Обо мне */
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .about-text {
+            flex: 2;
+        }
+        
+        .about-image {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .about-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 50%;
+            border: 5px solid #3498db;
+        }
+        
+        /* Навыки */
+        .skills {
+            background: #ecf0f1;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .skill {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1 1 300px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .skill h3 {
+            color: #3498db;
+        }
+        
+        /* Портфолио */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .portfolio-item {
+            background: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .portfolio-image {
+            height: 200px;
+            background-color: #3498db;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .portfolio-text {
+            padding: 20px;
+        }
+        
+        /* Контакты */
+        .contact {
+            background: #2c3e50;
+            color: white;
+        }
+        
+        .contact h2 {
+            color: white;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .contact-item {
+            flex: 1 1 300px;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .contact-form textarea {
+            height: 150px;
+        }
+        
+        /* Футер */
+        footer {
+            background: #1a252f;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Иван Иванов</div>
+                <ul class="nav-links">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главный баннер -->
+    <section class="hero">
+        <div class="container">
+            <h1>Иван Иванов</h1>
+            <p>Веб-разработчик и дизайнер с passion к созданию красивых и функциональных сайтов</p>
+            <a href="#contact" class="btn">Связаться со мной</a>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Привет! Меня зовут Иван, и я веб-разработчик с 5-летним опытом работы. Я специализируюсь на создании современных, адаптивных веб-сайтов и приложений.</p>
+                    <p>Мой подход сочетает в себе техническое мастерство и творческое видение, чтобы создавать продукты, которые не только хорошо выглядят, но и эффективно работают.</p>
+                    <p>В свободное время я люблю изучать новые технологии, читать книги по дизайну и участвовать в IT-сообществах.</p>
+                </div>
+                <div class="about-image">
+                    <div style="width: 300px; height: 300px; background-color: #3498db; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">Фото</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Мои навыки</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>Веб-разработка</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Node.js, PHP</p>
+                </div>
+                <div class="skill">
+                    <h3>Дизайн</h3>
+                    <p>UI/UX дизайн, Adobe Photoshop, Figma, Responsive Design</p>
+                </div>
+                <div class="skill">
+                    <h3>Другие навыки</h3>
+                    <p>Git, SEO оптимизация, Project Management, Agile/Scrum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Проект 1</div>
+                    <div class="portfolio-text">
+                        <h3>Корпоративный сайт</h3>
+                        <p>Разработка современного корпоративного сайта с системой управления контентом.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Проект 2</div>
+                    <div class="portfolio-text">
+                        <h3>Интернет-магазин</h3>
+                        <p>Создание полнофункционального интернет-магазина с интеграцией платежной системы.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Проект 3</div>
+                    <div class="portfolio-text">
+                        <h3>Мобильное приложение</h3>
+                        <p>Дизайн и разработка кроссплатформенного мобильного приложения.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Свяжитесь со мной</h3>
+                    <p>Email: ivan@example.com</p>
+                    <p>Телефон: +7 (123) 456-78-90</p>
+                    <p>Адрес: Москва, ул. Примерная, 123</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Социальные сети</h3>
+                    <p><a href="#">VK</a></p>
+                    <p><a href="#">Telegram</a></p>
+                    <p><a href="#">GitHub</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Отправьте сообщение</h3>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="email" placeholder="Ваш email">
+                        <textarea placeholder="Ваше сообщение"></textarea>
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <p>© 2023 Иван Иванов. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
