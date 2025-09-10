@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портал технической поддержки ФСК-Регион</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+    <div id="main-page" class="page container">
+        <header class="header">
+            <div class="header-top">
+                <h1>Техническая поддержка</h1>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+            <p class="subtitle">Выберите информационную систему для получения поддержки</p>
+        </header>
+
+        <section class="search-section">
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="system-search"
+                    class="form-control search-input"
+                    placeholder="Поиск системы..."
+                    autocomplete="off"
+                >
+                <button id="select-button" class="btn btn--primary">Выбрать</button>
+            </div>
+
+            <div id="search-dropdown" class="search-dropdown hidden">
+                <ul id="search-results"></ul>
+            </div>
+        </section>
+
+        <section class="systems-grid">
+            <div id="systems-container" class="systems-container"></div>
+        </section>
+    </div>
+
+    <div id="support-page" class="page container hidden">
+        <div class="support-content">
+            <button id="back-button" class="btn btn--outline back-button">
+                ← Назад к списку систем
+            </button>
+
+            <div class="support-card">
+                <h2 id="support-title">Техническая поддержка</h2>
+                <p class="support-description">
+                    Для получения технической поддержки воспользуйтесь одним из указанных способов обращения.
+                </p>
+
+                <div id="helpdesk-content" class="hidden">
+                    <h3>Хелпдеск ФСК-Регион</h3>
+                    <p>Для получения технической поддержки по системе <span id="system-name-1"></span> воспользуйтесь внутренним хелпдеском</p>
+
+                    <div class="support-actions">
+                        <a id="helpdesk-link" href="#" target="_blank" class="btn btn--primary btn--lg">
+                            Открыть хелпдеск
+                        </a>
+                        <p class="external-notice">При нажатии откроется внешний ресурс</p>
+                    </div>
+                </div>
+
+                <div id="email-content" class="hidden">
+                    <h3>Техническая поддержка ГК ФСК</h3>
+                    <p>Для получения технической поддержки по системе <span id="system-name-2"></span> обратитесь в техническую поддержку головной компании</p>
+
+                    <div class="email-instructions">
+                        <h3>Как отправить запрос:</h3>
+                        <ol>
+                            <li>Откройте вашу почтовую программу или веб-интерфейс почты</li>
+                            <li>Создайте новое письмо на адрес: <code id="email-link">hd@fsk.ru</code></li>
+                            <li>В теме письма укажите: <strong>"Техподдержка - <span id="system-name-template"></span>"</strong></li>
+                            <li>Опишите детально вашу проблему или вопрос</li>
+                            <li>При необходимости приложите скриншоты или файлы</li>
+                            <li>Отправьте письмо</li>
+                        </ol>
+                    </div>
+
+                    <div class="support-actions">
+                        <button id="compose-email" class="btn btn--primary btn--lg">
+                            Техподдержка
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
