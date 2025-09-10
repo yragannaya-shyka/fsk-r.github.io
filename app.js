@@ -10,6 +10,7 @@ class SupportPortalApp {
         this.loadSystems();
         this.setupEventListeners();
         this.handleRouting();
+        this.initTheme(); // Инициализация темы
     }
 
     initializeSystemImages() {
@@ -70,6 +71,8 @@ class SupportPortalApp {
         this.systemName2 = document.getElementById('system-name-2');
         this.systemNameTemplate = document.getElementById('system-name-template');
         this.composeEmailButton = document.getElementById('compose-email');
+        this.themeToggle = document.getElementById('theme-toggle'); // Новая кнопка
+        this.themeIcon = this.themeToggle.querySelector('.theme-icon'); // Иконка темы
     }
 
     async loadSystems() {
@@ -131,6 +134,10 @@ class SupportPortalApp {
 
         window.addEventListener('hashchange', () => {
             this.handleRouting();
+        });
+
+        this.themeToggle.addEventListener('click', () => {
+            this.toggleTheme();
         });
     }
 
@@ -425,6 +432,37 @@ class SupportPortalApp {
         } else {
             this.showMainPage();
         }
+    }
+
+    // Новые методы для управления темой
+    initTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (savedTheme) {
+            this.setTheme(savedTheme);
+        } else if (prefersDark) {
+            this.setTheme('dark');
+        } else {
+            this.setTheme('light');
+        }
+    }
+
+    setTheme(theme) {
+        document.body.classList.remove('light-theme', 'dark-theme');
+        document.body.classList.add(theme + '-theme');
+
+        // Обновляем иконку
+        this.themeIcon.textContent = theme === 'dark' ? '☀️' : '🌙';
+
+        // Сохраняем в localStorage
+        localStorage.setItem('theme', theme);
+    }
+
+    toggleTheme() {
+        const currentTheme = document.body.classList.contains('dark-theme') ? 'dark' : 'light';
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        this.setTheme(newTheme);
     }
 }
 
