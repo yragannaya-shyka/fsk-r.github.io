@@ -296,7 +296,7 @@ class SupportPortalApp {
 
         // Добавляем раздел Email
         if (emailSystems.length > 0) {
-            this.systemsContainer.appendChild(createSectionHeader('Программное обеспечение ФСК'));
+            this.systemsContainer.appendChild(createSectionHeader('Программное обеспечение ГК ФСК'));
             emailSystems.forEach(system => {
                 const card = this.createSystemCard(system);
                 this.systemsContainer.appendChild(card);
