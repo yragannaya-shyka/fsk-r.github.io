@@ -69,13 +69,13 @@
     "name": "Albato",
     "support_type": "Хелпдеск ФСК-Регион",
     "support_method": "helpdesk",
-    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+    "support_link": "https://karasevaa.admin24.app/form/30f047b3-6edb-4108-b73d-381b9442cd1e"
   },
   {
     "name": "BuildDocs",
     "support_type": "Хелпдеск ФСК-Регион",
     "support_method": "helpdesk",
-    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+    "support_link": "https://karasevaa.admin24.app/form/e70e4113-59d5-47ef-8cf1-bf0a58f3517d"
   },
   {
     "name": "HR-Link",
@@ -111,19 +111,19 @@
     "name": "Sarex",
     "support_type": "Хелпдеск ФСК-Регион",
     "support_method": "helpdesk",
-    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+    "support_link": "https://karasevaa.admin24.app/form/01c010d3-0f0e-475d-987c-9503c8a0dfe5"
   },
   {
     "name": "StormBPMN",
     "support_type": "Хелпдеск ФСК-Регион",
     "support_method": "helpdesk",
-    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+    "support_link": "https://karasevaa.admin24.app/form/596daecd-8131-4d64-a769-9a075a10b25e"
   },
   {
     "name": "Tangl Control",
     "support_type": "Хелпдеск ФСК-Регион",
     "support_method": "helpdesk",
-    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+    "support_link": "https://karasevaa.admin24.app/form/d7b46fc3-a785-41d7-abf1-ba04dfccc11f"
   },
   {
     "name": "VMware Horizon",
@@ -141,6 +141,6 @@
     "name": "DevIS",
     "support_type": "Хелпдеск ФСК-Регион",
     "support_method": "helpdesk",
-    "support_link": "https://karasevaa.admin24.app/form/28234feb-83b1-4e6b-8e61-e0538bb58802?context=bitrix24&DOMAIN=fsk-r.bitrix24.ru&PROTOCOL=1&LANG=ru&APP_SID=8f1c41402d035626ccc866ee1fe25969&AUTH_ID=a4dd89680017d8600064608600000192000007c5f231e8edcee8d968517738234cf009&messenger_tga=telegram"
+    "support_link": "https://karasevaa.admin24.app/form/534f5a48-fde3-4565-8f9d-39d29999ab93"
   }
 ]
